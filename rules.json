@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        { "header": "accept", "operation": "set", "value": "*/*" }
+      ]
+    },
+    "condition": {
+      "urlFilter": "chatgpt.com/backend-api/synthesize*",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  }
+]

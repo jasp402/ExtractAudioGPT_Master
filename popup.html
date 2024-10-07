@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="card">
+    <div class="card-image-container">
+        <div class="image-wrapper">
+            <img src="./banner.png" alt="Extract Audio ChatGPT" class="card-image" />
+        </div>
+    </div>
+    <div class="card-content">
+        <h2 class="card-title">Extract Audio ChatGPT</h2>
+        <p class="card-description">To activate the functionality, the "YES" option must be checked. If you want to deactivate it, check the "NO" option.</p>
+        <form id="toggleSwitch">
+            <input type="radio" name="rdo" id="yes" />
+            <input type="radio" name="rdo" id="no"/>
+            <div class="switch">
+                <label for="yes">Yes</label>
+                <label for="no">No</label>
+                <span></span>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="info-card">
+    <div class="info-content">
+        <div class="info-icon">
+            <div class="user-status-emoji-container flex-shrink-0 mr-2 d-flex flex-items-center flex-justify-center ">
+                <div>
+                    <img class="emoji" title=":octocat:" alt=":octocat:" src="https://avatars.githubusercontent.com/u/8978470?v=4" height="40" width="40" align="absmiddle" style="border-radius: 0.5rem;">
+                </div>
+            </div>
+        </div>
+        <div class="info-text">
+            <h3 class="info-heading">JASP402</h3>
+            <p class="info-subheading">about the creator.</p>
+        </div>
+        <a href="https://github.com/jasp402" target="_blank" class="info-button">
+            <svg class="icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"></path>
+            </svg>
+        </a>
+    </div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
