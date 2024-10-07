@@ -1,0 +1,13 @@
+{
+  "name": "ExtractAudioGPT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss build styles.css -o output.css"
+  },
+  "private": true,
+  "dependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
